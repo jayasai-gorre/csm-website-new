@@ -198,8 +198,6 @@
   float: right;
   width: 503px;
   height: 525px;
-  margin-right: 10px;
-  margin-top: 5px;
   background-color: rgb(255, 254, 173);
   overflow: hidden;
 }
@@ -214,6 +212,16 @@
   }
   .paragraph li {
     margin-left: 125px;
+  }
+}
+
+@media only screen and (min-width: 1326px) {
+  #news-container {
+    width: 25%;
+  }
+
+  .new-news {
+    font-size: 14px !important;
   }
 }
 .paragraph li {
